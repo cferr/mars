@@ -1,7 +1,7 @@
 # MARS computer
 
 This is the artifact provided along with the IMPACT'23 submission
-"Maximal Atomic Redundancy-free Sets: a Usage-based Dataflow Partitioning 
+"Maximal Atomic irRedundant Sets: a Usage-based Dataflow Partitioning 
 Algorithm".
 
 The MARS computer is a Jupyter notebook, which contains pre-computed
