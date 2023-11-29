@@ -1,0 +1,79 @@
+# Run time for all benchmarks in this directory using "time ...".
+# CPU: Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+
+python canonical3d.py > /dev/null  0.16s user 0.02s system 98% cpu 0.184 total
+python canonical3d.py > /dev/null  0.15s user 0.02s system 98% cpu 0.179 total
+python canonical3d.py > /dev/null  0.17s user 0.01s system 98% cpu 0.184 total
+python canonical3d.py > /dev/null  0.17s user 0.01s system 98% cpu 0.181 total
+python canonical3d.py > /dev/null  0.16s user 0.01s system 99% cpu 0.176 total
+python canonical3d.py > /dev/null  0.16s user 0.02s system 96% cpu 0.185 total
+python canonical3d.py > /dev/null  0.16s user 0.02s system 98% cpu 0.180 total
+python canonical3d.py > /dev/null  0.16s user 0.02s system 99% cpu 0.181 total
+python canonical3d.py > /dev/null  0.17s user 0.01s system 99% cpu 0.182 total
+python canonical3d.py > /dev/null  0.17s user 0.01s system 99% cpu 0.180 total
+
+python gemm.py > /dev/null  0.12s user 0.02s system 98% cpu 0.146 total
+python gemm.py > /dev/null  0.13s user 0.02s system 99% cpu 0.156 total
+python gemm.py > /dev/null  0.13s user 0.02s system 97% cpu 0.149 total
+python gemm.py > /dev/null  0.12s user 0.03s system 99% cpu 0.144 total
+python gemm.py > /dev/null  0.13s user 0.02s system 97% cpu 0.149 total
+python gemm.py > /dev/null  0.13s user 0.01s system 98% cpu 0.146 total
+python gemm.py > /dev/null  0.13s user 0.02s system 98% cpu 0.148 total
+python gemm.py > /dev/null  0.12s user 0.02s system 99% cpu 0.144 total
+python gemm.py > /dev/null  0.12s user 0.02s system 99% cpu 0.141 total
+python gemm.py > /dev/null  0.13s user 0.01s system 99% cpu 0.141 total
+
+python jacobi1d.py > /dev/null  0.16s user 0.02s system 97% cpu 0.178 total
+python jacobi1d.py > /dev/null  0.15s user 0.03s system 97% cpu 0.179 total
+python jacobi1d.py > /dev/null  0.15s user 0.02s system 97% cpu 0.177 total
+python jacobi1d.py > /dev/null  0.16s user 0.02s system 99% cpu 0.178 total
+python jacobi1d.py > /dev/null  0.15s user 0.03s system 97% cpu 0.179 total
+python jacobi1d.py > /dev/null  0.15s user 0.02s system 96% cpu 0.183 total
+python jacobi1d.py > /dev/null  0.18s user 0.01s system 99% cpu 0.195 total
+python jacobi1d.py > /dev/null  0.18s user 0.01s system 97% cpu 0.198 total
+python jacobi1d.py > /dev/null  0.17s user 0.01s system 98% cpu 0.188 total
+python jacobi1d.py > /dev/null  0.17s user 0.02s system 97% cpu 0.195 total
+
+python jacobi2d_d.py > /dev/null  11.56s user 0.05s system 99% cpu 11.664 total
+python jacobi2d_d.py > /dev/null  11.18s user 0.02s system 99% cpu 11.288 total
+python jacobi2d_d.py > /dev/null  11.11s user 0.03s system 99% cpu 11.242 total
+python jacobi2d_d.py > /dev/null  11.83s user 0.03s system 98% cpu 11.987 total
+python jacobi2d_d.py > /dev/null  11.78s user 0.03s system 98% cpu 12.018 total
+python jacobi2d_d.py > /dev/null  11.57s user 0.01s system 99% cpu 11.635 total
+python jacobi2d_d.py > /dev/null  11.26s user 0.03s system 99% cpu 11.383 total
+python jacobi2d_d.py > /dev/null  12.04s user 0.14s system 98% cpu 12.366 total
+python jacobi2d_d.py > /dev/null  11.58s user 0.02s system 99% cpu 11.644 total
+python jacobi2d_d.py > /dev/null  11.56s user 0.02s system 99% cpu 11.649 total
+
+python jacobi2d_r.py > /dev/null  1.19s user 0.01s system 99% cpu 1.216 total
+python jacobi2d_r.py > /dev/null  1.22s user 0.02s system 98% cpu 1.262 total
+python jacobi2d_r.py > /dev/null  1.14s user 0.02s system 98% cpu 1.172 total
+python jacobi2d_r.py > /dev/null  1.13s user 0.03s system 99% cpu 1.167 total
+python jacobi2d_r.py > /dev/null  1.21s user 0.01s system 99% cpu 1.231 total
+python jacobi2d_r.py > /dev/null  1.19s user 0.01s system 98% cpu 1.220 total
+python jacobi2d_r.py > /dev/null  1.17s user 0.03s system 98% cpu 1.225 total
+python jacobi2d_r.py > /dev/null  1.18s user 0.03s system 98% cpu 1.238 total
+python jacobi2d_r.py > /dev/null  1.15s user 0.05s system 97% cpu 1.217 total
+python jacobi2d_r.py > /dev/null  1.14s user 0.03s system 99% cpu 1.177 total
+
+python seidel2d.py > /dev/null  2.11s user 0.03s system 99% cpu 2.147 total
+python seidel2d.py > /dev/null  2.04s user 0.02s system 98% cpu 2.082 total
+python seidel2d.py > /dev/null  2.02s user 0.03s system 99% cpu 2.072 total
+python seidel2d.py > /dev/null  2.10s user 0.02s system 99% cpu 2.127 total
+python seidel2d.py > /dev/null  2.06s user 0.04s system 98% cpu 2.131 total
+python seidel2d.py > /dev/null  2.25s user 0.02s system 99% cpu 2.296 total
+python seidel2d.py > /dev/null  2.11s user 0.02s system 98% cpu 2.176 total
+python seidel2d.py > /dev/null  2.10s user 0.04s system 97% cpu 2.177 total
+python seidel2d.py > /dev/null  2.06s user 0.03s system 99% cpu 2.096 total
+python seidel2d.py > /dev/null  2.15s user 0.02s system 98% cpu 2.207 total
+
+python sw.py > /dev/null  0.14s user 0.03s system 98% cpu 0.173 total
+python sw.py > /dev/null  0.15s user 0.03s system 96% cpu 0.180 total
+python sw.py > /dev/null  0.13s user 0.03s system 98% cpu 0.168 total
+python sw.py > /dev/null  0.14s user 0.03s system 99% cpu 0.171 total
+python sw.py > /dev/null  0.15s user 0.02s system 99% cpu 0.174 total
+python sw.py > /dev/null  0.17s user 0.01s system 98% cpu 0.181 total
+python sw.py > /dev/null  0.17s user 0.02s system 98% cpu 0.191 total
+python sw.py > /dev/null  0.16s user 0.02s system 99% cpu 0.178 total
+python sw.py > /dev/null  0.17s user 0.01s system 97% cpu 0.182 total
+python sw.py > /dev/null  0.16s user 0.02s system 97% cpu 0.189 total

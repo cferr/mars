@@ -1,0 +1,5 @@
+islpy
+simplejson
+
+--extra-index-url https://pypi.gurobi.com/simple/
+gurobipy
